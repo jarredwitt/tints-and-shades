@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	box-sizing: border-box;
 }
 
@@ -9,7 +11,9 @@ html {
 body {
 	font-size: 1.8rem;
 	line-height: 1.618;
-	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
 	font-weight: normal;
 	text-align: center;
 	color: #000;
@@ -21,14 +25,16 @@ a {
 	border-bottom: 3px solid #000;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
 	border-color: #ca228e;
 }
 
 code {
-  background: #f0f0f0;
-  font-size: 85%;
-  padding: 0.2rem 0.6rem;
+	background: #f0f0f0;
+	font-size: 85%;
+	padding: 0.2rem 0.6rem;
 	border-radius: 3px;
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
@@ -50,7 +56,7 @@ code {
 
 .ts-headline h1 a {
 	background: linear-gradient(to right, #e96443, #ca228e);
-  border-radius: 3px;
+	border-radius: 3px;
 	margin-bottom: 0;
 	font-size: 6rem;
 	font-weight: 900;
@@ -73,8 +79,8 @@ code {
 
 .ts-form h2 {
 	font-weight: normal;
-  font-size: 2.7rem;
-  line-height: 1.3;
+	font-size: 2.7rem;
+	line-height: 1.3;
 	margin: 0;
 }
 
@@ -105,7 +111,8 @@ code {
 	outline: 0;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
 	background: #ca228e;
 }
 
@@ -132,6 +139,13 @@ td.hex-color {
 td.hex-value {
 	font-size: 1.3rem;
 	text-align: center;
+	padding: 0.5rem 0 0.2rem;
+	text-transform: lowercase;
+}
+
+td.number-value {
+	font-size: 1.3rem;
+	text-align: center;
 	padding: 0.5rem 0 2.5rem;
 	text-transform: lowercase;
 }
@@ -156,7 +170,8 @@ td.hex-value {
 	margin-bottom: -0.5rem;
 }
 
-.ts-documentation ul, .ts-documentation ol {
+.ts-documentation ul,
+.ts-documentation ol {
 	padding-left: 3rem;
 	margin: 1.5rem 0;
 }
@@ -171,9 +186,9 @@ td.hex-value {
 
 .not-found {
 	background: #000;
-  color: #fff;
+	color: #fff;
 	display: inline-block;
-  padding: 4rem 4rem 3rem;
+	padding: 4rem 4rem 3rem;
 }
 
 .not-found h2 {
@@ -206,7 +221,7 @@ td.hex-value {
 
 	#tints-and-shades {
 		overflow-y: scroll;
-	  -webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: touch;
 	}
 }
 
